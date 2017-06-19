@@ -1,0 +1,15 @@
+import java.util.*;
+class TestCollection1{
+ public static void main(String args[]){
+int sum=0;
+ArrayList<String> al=new ArrayList<String>();
+al.add("1");
+ al.add("12");
+al.add("14");
+al.add("16");
+List<Integer> newList=new ArrayList<Integer>(al.size());
+for(String hy:al)
+sum+=(Integer.valueOf(hy));
+System.out.println(sum);
+}
+}
